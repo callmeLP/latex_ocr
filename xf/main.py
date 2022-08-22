@@ -28,6 +28,7 @@ def start():
     content = res['data']['region'][0]['recog']['content']
     content = re.sub(r'ifly-latex-begin', '', content)
     content = re.sub(r'ifly-latex-end', '', content)
+    content = re.sub(r' ', '', content)
     # 将结果复制到剪切板
     pyperclip.copy(content)
     print(content)
