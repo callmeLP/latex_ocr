@@ -8,7 +8,9 @@
 2. 修改`WebITRTeach.py`文件中的`APPID` `Secret` `APIKey`三个参数（自己去平台上申请）
 3. 运行`python3 main.py`
 4. 识别成功后`CTRL`+`V`粘贴公式
-> `PrScrn.dll`是微信的截图dll文件，拿过来用一下。
+> `PrScrn.dll`是微信的截图dll文件，拿过来用一下。    
+运行截图：  
+![](./xf/gui.gif)
 
 ### 好未来平台
 <https://ai.100tal.com/>
