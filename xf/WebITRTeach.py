@@ -142,6 +142,7 @@ class get_result(object):
 
 if __name__ == '__main__':
     gClass=get_result()
+    
     res = gClass.call_url("1.png")    # 返回字典类型
     content = res["data"]["region"][0]["recog"]["content"]    #latex str类型
     content = re.sub(r'ifly-latex-begin', '', content)
