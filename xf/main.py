@@ -8,9 +8,6 @@ import ctypes
 from tkinter import  messagebox, StringVar
 import tkinter as tk
 
-imgTemp = ""
-
-
 def start(textTemp, lab1, root_window):
     # window_handle = ctypes.windll.kernel32.GetConsoleWindow()
     # # 0：隐藏；6：最小化
@@ -46,6 +43,7 @@ def start(textTemp, lab1, root_window):
  
 if __name__ == '__main__':
     root_window = tk.Tk()
+    root_window.attributes("-topmost",1)
     root_window.geometry("350x200")
     root_window.resizable(0, 0)
     root_window.title("img2latex")
